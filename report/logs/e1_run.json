@@ -1,0 +1,12 @@
+{
+  "name": "E1",
+  "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+  "seed": 42,
+  "completed_steps": 300,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "lr": 0.0002,
+  "trainable_params": 33030144,
+  "peak_vram_gb": 6.721076736,
+  "train_minutes": 47.86161472608334
+}

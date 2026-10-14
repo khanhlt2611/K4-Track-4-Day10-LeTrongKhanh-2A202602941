@@ -1,0 +1,20 @@
+{
+  "name": "E2",
+  "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+  "seed": 42,
+  "completed_steps": 300,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "lr": 0.0002,
+  "trainable_params": 142135296,
+  "projector_params": 109105152,
+  "peak_vram_gb": 9.14250496,
+  "train_minutes": 44.7522706626667,
+  "visual_quantized": false,
+  "projector_dtype": "float32",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  }
+}

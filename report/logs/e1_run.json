@@ -1,12 +1,22 @@
 {
   "name": "E1",
+  "setup": "E1",
   "model_id": "Qwen/Qwen3-VL-4B-Instruct",
-  "seed": 42,
   "completed_steps": 300,
+  "trainable_params": 33030144,
+  "projector_params": 0,
+  "peak_vram_gb": 6.89541376,
+  "train_minutes": 39.940486304733334,
+  "visual_quantized": false,
+  "seed": 42,
   "batch_size": 2,
   "grad_accum": 4,
   "lr": 0.0002,
-  "trainable_params": 33030144,
-  "peak_vram_gb": 6.721076736,
-  "train_minutes": 47.86161472608334
+  "train_fraction": 1.0,
+  "dataset_version": "d10-21e4070301",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  }
 }
